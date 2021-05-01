@@ -1,6 +1,6 @@
 # Spring Boot Demo
 
-This is a Spring Boot sandbox application used primarily for testing and education.
+This is a Spring Boot sandbox application used for testing and educational purposes.
 
 This is a work in progress.
 
@@ -17,5 +17,4 @@ This is a work in progress.
 Start a local instance of PostgreSQL.
 
 ```
-Docker run -d -p 5432:5432 --name postgres -e POSTGRES_HOST_AUTH_METHOD=trust -e POSTGRES_DB=student postgres:latest
-```
+docker run --rm -it -p 5432:5432 --name postgres -e POSTGRES_PASSWORD="test123" -e POSTGRES_USER="awaring" -e POSTGRES_DB=student -d postgres
