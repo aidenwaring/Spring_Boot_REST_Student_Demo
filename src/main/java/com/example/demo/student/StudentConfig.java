@@ -16,12 +16,12 @@ public class StudentConfig {
             Student mario = new Student(
                 "Mario",
                 "mario@nintendo.com",
-                LocalDate.of(1985, Month.SEPTEMBER, 5), 35
+                LocalDate.of(1985, Month.SEPTEMBER, 5)
             );
             Student pikachu = new Student(
                 "Pikachu",
                 "pikachu@nintendo.com",
-                LocalDate.of(1996, Month.OCTOBER, 15), 24
+                LocalDate.of(1996, Month.OCTOBER, 15)
             );
 
             repository.saveAll(
