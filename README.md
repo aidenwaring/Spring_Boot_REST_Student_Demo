@@ -2,7 +2,8 @@
 
 This is a Spring Boot sandbox application used for testing and educational purposes.
 
-This is a work in progress.
+This is a work in progress. The project is by no means a production application and should be
+used for local testing only.
 
 This service demonstrates basic CRUD operations in a
 simple Spring Boot App built using Spring Initializer.
